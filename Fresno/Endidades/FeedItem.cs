@@ -23,9 +23,6 @@ namespace Fresno.Endidades
         public string PubDate { get; set; }
 
         [Column(CanBeNull = false)]
-        public string Guid { get; set; }
-
-        [Column(CanBeNull = false)]
         public string Link { get; set; }
     }
 }

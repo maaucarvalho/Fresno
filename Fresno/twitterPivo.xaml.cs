@@ -31,7 +31,7 @@ namespace Fresno
             WebClient RssClient = new WebClient();
             RssClient.DownloadStringCompleted += RssClient_DownloadStringCompleted;
             if (e.Item == FresnoB)
-                RssClient.DownloadStringAsync(new Uri(@"http://twitrss.me/twitter_user_to_rss/?user=maaucarvalho"));
+                RssClient.DownloadStringAsync(new Uri(@"http://twitrss.me/twitter_user_to_rss/?user=fresnorock"));
             else if (e.Item == Lucas)
                 RssClient.DownloadStringAsync(new Uri(@"http://twitrss.me/twitter_user_to_rss/?user=lucasfresno"));
             else if (e.Item == Vavo)
@@ -80,16 +80,6 @@ namespace Fresno
         private void Navigate(string pPage)
         {
             NavigationService.Navigate(new Uri(pPage, UriKind.Relative));
-        }
-
-        private void Refresh()
-        {
-            List<FeedTwitter> twitter = FeedsRepositorio.Gets();
-            LstFresno.ItemsSource = twitter;
-            LstLucas.ItemsSource = twitter;
-            LstVavo.ItemsSource = twitter;
-            LstGuerra.ItemsSource = twitter;
-            LstMario.ItemsSource = twitter;
-        }   
+        } 
     }
 }

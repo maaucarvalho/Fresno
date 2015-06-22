@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 
 namespace Fresno.Repositorio
 {
@@ -27,13 +28,23 @@ namespace Fresno.Repositorio
             return lista;
         }
 
-        public static List<FeedTwitter> Gets()
+        public static void Create(FeedItem pFeed)
         {
             DataBase db = GetDataBase();
-            var query = from feedtwitter in db.Twitter orderby feedtwitter.Title select feedtwitter;
+            db.Feed.InsertOnSubmit(pFeed);
+            db.SubmitChanges();
 
-            List<FeedTwitter> listatwitter = new List<FeedTwitter>(query.AsEnumerable());
-            return listatwitter;
+        }
+
+        public static void Delete(FeedItem pFeeds)
+        {
+            DataBase db = GetDataBase();
+            var query = from c in db.Feed
+                        where c.Id == pFeeds.Id
+                        select c;
+
+            db.Feed.DeleteOnSubmit(query.ToList()[0]);
+            db.SubmitChanges();
         }
     }
 }

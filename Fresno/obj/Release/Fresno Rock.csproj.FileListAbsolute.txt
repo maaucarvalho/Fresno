@@ -1,0 +1,20 @@
+C:\Users\Maurício\documents\visual studio 2012\Projects\Fresno\Fresno\Bin\Release\ApplicationIcon.png
+C:\Users\Maurício\documents\visual studio 2012\Projects\Fresno\Fresno\Bin\Release\Background.png
+C:\Users\Maurício\documents\visual studio 2012\Projects\Fresno\Fresno\Bin\Release\AppManifest.xaml
+C:\Users\Maurício\documents\visual studio 2012\Projects\Fresno\Fresno\Bin\Release\Fresno Rock.xap
+C:\Users\Maurício\documents\visual studio 2012\Projects\Fresno\Fresno\Bin\Release\Microsoft.Phone.Controls.dll
+C:\Users\Maurício\documents\visual studio 2012\Projects\Fresno\Fresno\Bin\Release\Microsoft.Phone.Controls.xml
+C:\Users\Maurício\documents\visual studio 2012\Projects\Fresno\Fresno\obj\Release\Fresno Rock.csprojResolveAssemblyReference.cache
+C:\Users\Maurício\documents\visual studio 2012\Projects\Fresno\Fresno\obj\Release\App.g.cs
+C:\Users\Maurício\documents\visual studio 2012\Projects\Fresno\Fresno\obj\Release\Internet.g.cs
+C:\Users\Maurício\documents\visual studio 2012\Projects\Fresno\Fresno\obj\Release\MainPage.g.cs
+C:\Users\Maurício\documents\visual studio 2012\Projects\Fresno\Fresno\obj\Release\musicasPivo.g.cs
+C:\Users\Maurício\documents\visual studio 2012\Projects\Fresno\Fresno\obj\Release\Sobre.g.cs
+C:\Users\Maurício\documents\visual studio 2012\Projects\Fresno\Fresno\obj\Release\twitterPivo.g.cs
+C:\Users\Maurício\documents\visual studio 2012\Projects\Fresno\Fresno\obj\Release\XapCacheFile.xml
+C:\Users\Maurício\documents\visual studio 2012\Projects\Fresno\Fresno\Bin\Release\Fresno.dll
+C:\Users\Maurício\documents\visual studio 2012\Projects\Fresno\Fresno\Bin\Release\Fresno.pdb
+C:\Users\Maurício\documents\visual studio 2012\Projects\Fresno\Fresno\obj\Release\Fresno.g.resources
+C:\Users\Maurício\documents\visual studio 2012\Projects\Fresno\Fresno\obj\Release\Fresno.dll
+C:\Users\Maurício\documents\visual studio 2012\Projects\Fresno\Fresno\obj\Release\Fresno.pdb
+C:\Users\Maurício\documents\visual studio 2012\Projects\Fresno\Fresno\obj\Release\Favoritos.g.cs

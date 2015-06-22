@@ -1,12 +1,13 @@
-﻿<xapCache source="C:\Users\Maurício\documents\visual studio 2012\Projects\Fresno\Fresno\Bin\Debug\Fresno.xap" wasSigned="False" certificateThumbprint="" TimeStampUrl="" lastWriteTime="19/06/2015 21:50:22">
-  <file source="C:\Users\Maurício\documents\visual studio 2012\Projects\Fresno\Fresno\Bin\Debug\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="09/06/2015 20:00:11" />
+﻿<xapCache source="C:\Users\Maurício\documents\visual studio 2012\Projects\Fresno\Fresno\Bin\Release\Fresno Rock.xap" wasSigned="False" certificateThumbprint="" TimeStampUrl="" lastWriteTime="20/06/2015 19:02:33">
+  <file source="C:\Users\Maurício\documents\visual studio 2012\Projects\Fresno\Fresno\Bin\Release\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="20/06/2015 13:09:30" />
   <file source="C:\Users\Maurício\documents\visual studio 2012\Projects\Fresno\Fresno\fre.PNG" archivePath="fre.PNG" lastWriteTime="09/06/2015 19:59:26" />
   <file source="C:\Users\Maurício\documents\visual studio 2012\Projects\Fresno\Fresno\fre.PNG" archivePath="fre.PNG" lastWriteTime="09/06/2015 19:59:26" />
-  <file source="C:\Users\Maurício\documents\visual studio 2012\Projects\Fresno\Fresno\obj\Debug\Fresno.dll" archivePath="Fresno.dll" lastWriteTime="19/06/2015 21:50:21" />
+  <file source="C:\Users\Maurício\documents\visual studio 2012\Projects\Fresno\Fresno\obj\Release\Fresno.dll" archivePath="Fresno.dll" lastWriteTime="20/06/2015 19:02:32" />
   <file source="C:\Program Files (x86)\Microsoft SDKs\Windows Phone\v7.1\Libraries\Silverlight\Microsoft.Phone.Controls.dll" archivePath="Microsoft.Phone.Controls.dll" lastWriteTime="06/07/2012 01:40:16" />
   <file source="C:\Users\Maurício\documents\visual studio 2012\Projects\Fresno\Fresno\ApplicationIcon.png" archivePath="ApplicationIcon.png" lastWriteTime="03/06/2015 20:33:17" />
   <file source="C:\Users\Maurício\documents\visual studio 2012\Projects\Fresno\Fresno\Background.png" archivePath="Background.png" lastWriteTime="03/06/2015 20:33:17" />
   <file source="C:\Users\Maurício\documents\visual studio 2012\Projects\Fresno\Fresno\Icones\ciano.jpg" archivePath="Icones\ciano.jpg" lastWriteTime="19/06/2015 19:16:22" />
+  <file source="C:\Users\Maurício\documents\visual studio 2012\Projects\Fresno\Fresno\Icones\delete.png" archivePath="Icones\delete.png" lastWriteTime="20/06/2015 18:50:57" />
   <file source="C:\Users\Maurício\documents\visual studio 2012\Projects\Fresno\Fresno\Icones\fresno.jpg" archivePath="Icones\fresno.jpg" lastWriteTime="09/06/2015 09:41:06" />
   <file source="C:\Users\Maurício\documents\visual studio 2012\Projects\Fresno\Fresno\Icones\musica.png" archivePath="Icones\musica.png" lastWriteTime="08/06/2015 20:41:00" />
   <file source="C:\Users\Maurício\documents\visual studio 2012\Projects\Fresno\Fresno\Icones\noticias.png" archivePath="Icones\noticias.png" lastWriteTime="08/06/2015 20:44:38" />
@@ -16,7 +17,7 @@
   <file source="C:\Users\Maurício\documents\visual studio 2012\Projects\Fresno\Fresno\Icones\sobre.png" archivePath="Icones\sobre.png" lastWriteTime="08/06/2015 20:46:57" />
   <file source="C:\Users\Maurício\documents\visual studio 2012\Projects\Fresno\Fresno\Icones\twitter.png" archivePath="Icones\twitter.png" lastWriteTime="08/06/2015 20:27:11" />
   <file source="C:\Users\Maurício\documents\visual studio 2012\Projects\Fresno\Fresno\SplashScreenImage.jpg" archivePath="SplashScreenImage.jpg" lastWriteTime="03/06/2015 20:33:17" />
-  <file source="C:\Users\Maurício\documents\visual studio 2012\Projects\Fresno\Fresno\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="09/06/2015 19:33:09" />
-  <file source="C:\Users\Maurício\documents\visual studio 2012\Projects\Fresno\Fresno\Bin\Debug\ApplicationIcon.png" archivePath="ApplicationIcon.png" lastWriteTime="03/06/2015 20:33:17" />
-  <file source="C:\Users\Maurício\documents\visual studio 2012\Projects\Fresno\Fresno\Bin\Debug\Background.png" archivePath="Background.png" lastWriteTime="03/06/2015 20:33:17" />
+  <file source="C:\Users\Maurício\documents\visual studio 2012\Projects\Fresno\Fresno\Bin\Release\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="20/06/2015 13:06:17" />
+  <file source="C:\Users\Maurício\documents\visual studio 2012\Projects\Fresno\Fresno\Bin\Release\ApplicationIcon.png" archivePath="ApplicationIcon.png" lastWriteTime="03/06/2015 20:33:17" />
+  <file source="C:\Users\Maurício\documents\visual studio 2012\Projects\Fresno\Fresno\Bin\Release\Background.png" archivePath="Background.png" lastWriteTime="03/06/2015 20:33:17" />
 </xapCache>

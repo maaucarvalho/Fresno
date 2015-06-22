@@ -20,9 +20,5 @@ namespace Fresno.Banco
             get { return this.GetTable<FeedItem>(); }
         }
 
-        public Table<FeedTwitter> Twitter
-        {
-            get { return this.GetTable<FeedTwitter>(); }
-        }
     }
 }

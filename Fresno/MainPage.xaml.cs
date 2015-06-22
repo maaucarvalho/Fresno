@@ -40,15 +40,25 @@ namespace Fresno
 
         void rssClient_DonloadStringCompleted(object sender, DownloadStringCompletedEventArgs e)
         {
-            var RssItem = from rss in XElement.Parse(e.Result).Descendants("item")
-                          select new FeedItem
-                          {
-                              Title = rss.Element("title").Value,
-                              Description = rss.Element("description").Value,
-                              PubDate = rss.Element("pubDate").Value,
-                              Link = rss.Element("link").Value
-                          };
-            LstItem.ItemsSource = RssItem;
+            try
+            {
+                var RssItem = from rss in XElement.Parse(e.Result).Descendants("item")
+                              select new FeedItem
+                              {
+                                  Title = rss.Element("title").Value,
+                                  Description = rss.Element("description").Value,
+                                  PubDate = rss.Element("pubDate").Value,
+                                  Link = rss.Element("link").Value
+                              };
+                LstItem.ItemsSource = RssItem;
+            }
+            catch (Exception)
+            {
+                if (MessageBox.Show("Você está sem conexão com a internet! ;/ \nConecte-se e tente novamente.")
+                   == MessageBoxResult.OK)
+                { }
+                InitializeComponent();
+            }
         }
 
         private void Navigate(string pPage)
@@ -96,6 +106,34 @@ namespace Fresno
         private void sobre_Click(object sender, EventArgs e)
         {
             Navigate("/Sobre.xaml");
+        }
+
+        private void fav_noticia(object sender, EventArgs e)
+        {
+            Navigate("/Favoritos.xaml");
+        }
+
+        private void addfav_Click(object sender, EventArgs e)
+        {
+            if (feed != null)
+            {
+                FeedItem feeds = new FeedItem
+                {
+                    Title = feed.Title,
+                    PubDate = feed.PubDate,
+                    Link = feed.Link
+                };
+                FeedsRepositorio.Create(feed);
+                if (MessageBox.Show("Adicionado com sucesso!")
+                    == MessageBoxResult.OK)
+                { }
+            }
+            else
+            {
+                if (MessageBox.Show("Você deve selecionar uma noticia primeiro!")
+                    == MessageBoxResult.OK)
+                { }
+            }
         }
     }
 }

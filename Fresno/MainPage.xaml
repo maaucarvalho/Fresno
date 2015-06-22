@@ -35,7 +35,7 @@
                     <DataTemplate>
                         <StackPanel>
                                 <TextBlock Text="{Binding Title}" FontSize="25"/>
-                                <TextBlock Text="{Binding PubDate}" Foreground="Gray" FontSize="20"/>
+                                <TextBlock Text="{Binding PubDate}" Foreground="PaleGreen" FontSize="20"/>
                                 <TextBlock Text=" "/>
                             </StackPanel>
                     </DataTemplate>
@@ -60,6 +60,10 @@
             <shell:ApplicationBarIconButton IconUri="/Icones/sobre.png" 
                                             Text="sobre"
                                             Click="sobre_Click"/>
+            <shell:ApplicationBar.MenuItems>
+                <shell:ApplicationBarMenuItem Text="Favoritar Noticia" Click="addfav_Click"/>
+                <shell:ApplicationBarMenuItem Text="Meus favoritos" Click="fav_noticia"/>
+            </shell:ApplicationBar.MenuItems>
         </shell:ApplicationBar>
     </phone:PhoneApplicationPage.ApplicationBar>
 
